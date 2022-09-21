@@ -26,9 +26,11 @@ An example template is included that contains 2 teleporters that are linked to e
 To create your own teleporters, there is a Teleporter template that can be used. The template contains 2 custom properties on the root of the template.
 
 - **ShowName**
+
   If enabled, the name will appear above the teleporter for the player.
 
 - **Name**
+
   The name of the teleporter that will be transferred to.
 
 ## Connecting Teleporters
