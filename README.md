@@ -2,8 +2,8 @@
 
 # Teleporter
 
-[![Build Status](https://github.com/ManticoreGamesInc/Bootcamp-Teleporter/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/Bootcamp-Teleporter/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/Bootcamp-Teleporter?style=plastic)
+[![Build Status](https://github.com/ManticoreGamesInc/CC-Teleporter/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-Teleporter/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-Teleporter?style=plastic)
 
 ![Preview](/Screenshots/Main.png)
 
