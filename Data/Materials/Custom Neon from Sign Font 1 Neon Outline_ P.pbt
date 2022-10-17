@@ -2,7 +2,7 @@ Assets {
   Id: 249331931125605834
   Name: "Custom Neon from Sign Font 1 Neon Outline_ P"
   PlatformAssetType: 13
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Teleporter"
   CustomMaterialAsset {
     BaseMaterialId: 11471562348613660768

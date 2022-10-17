@@ -2,7 +2,7 @@ Assets {
   Id: 11770696993248034814
   Name: "Custom Frosted Glass"
   PlatformAssetType: 13
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Teleporter"
   CustomMaterialAsset {
     BaseMaterialId: 16630259605395466384

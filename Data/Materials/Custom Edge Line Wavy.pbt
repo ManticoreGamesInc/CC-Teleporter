@@ -2,7 +2,7 @@ Assets {
   Id: 13043601585515946239
   Name: "Custom Edge Line Wavy"
   PlatformAssetType: 13
-  SerializationVersion: 118
+  SerializationVersion: 119
   VirtualFolderPath: "Teleporter"
   CustomMaterialAsset {
     BaseMaterialId: 7560021599217454932
