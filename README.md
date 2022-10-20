@@ -23,6 +23,8 @@ The component uses a data table to make connecting teleporters quick and simple.
 
 An example template is included that contains 2 teleporters that are linked to each other. When the player enters the outside teleporter, the player will be teleported to the inside teleporter in the cafe.
 
+To have a specific rotation for the player when they are teleported, you can rotate the root object. If the rotation is 0, 0, 0, then it will maintain the player's rotation.
+
 To create your own teleporters, there is a Teleporter template that can be used. The template contains 2 custom properties on the root of the template.
 
 - **ShowName**

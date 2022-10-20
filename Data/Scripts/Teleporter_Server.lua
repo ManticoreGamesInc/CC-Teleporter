@@ -29,10 +29,9 @@ local function on_player_enter(trigger, other)
 				other.serverUserData.teleporting = true
 				other:SetWorldPosition(pos_obj:GetWorldPosition())
 
-				if(pos_obj:GetWorldRotation() ~= Rotation.ZERO) then
-					other:SetWorldRotation(pos_obj:GetWorldRotation())
-
-					Events.BroadcastToPlayer(other, "Teleporter.SetLook", other:GetWorldRotation())
+				if(teleporter:GetWorldRotation() ~= Rotation.ZERO) then
+					other:SetWorldRotation(teleporter:GetRotation())
+					Events.BroadcastToPlayer(other, "Teleporter.SetLook" .. teleporter.id, teleporter:GetWorldRotation())
 				end
 
 				other.serverUserData.teleporting = false

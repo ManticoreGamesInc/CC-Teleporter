@@ -16,6 +16,6 @@ if(SHOW_NAME) then
 	CONTAINER:LookAtContinuous(Game.GetLocalPlayer(), true)
 end
 
-Events.Connect("Teleporter.SetLook", function(look)
+Events.Connect("Teleporter.SetLook" .. TELEPORTER.id, function(look)
 	Game.GetLocalPlayer():SetLookWorldRotation(look)
 end)
