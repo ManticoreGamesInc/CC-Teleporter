@@ -29,6 +29,10 @@ An example template is included that contains 2 teleporters that are linked to e
 the player enters the outside teleporter, the player will be teleported to the inside teleporter
 in the cafe.
 
+Each teleporter has a "Player Position" object that can be used to control which way the player will
+be facing when being teleported. If you want to maintain the rotation the player has, then reset
+the rotation of the object to 0, 0, 0.
+
 To create your own teleporters, there is a Teleporter template that can be used. The template contains
 2 custom properties on the root of the template.
 
