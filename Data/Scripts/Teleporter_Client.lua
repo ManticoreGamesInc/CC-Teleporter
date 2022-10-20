@@ -15,3 +15,7 @@ if(SHOW_NAME) then
 	NAME.text = NAME_LABEL
 	CONTAINER:LookAtContinuous(Game.GetLocalPlayer(), true)
 end
+
+Events.Connect("Teleporter.SetLook", function(look)
+	Game.GetLocalPlayer():SetLookWorldRotation(look)
+end)
