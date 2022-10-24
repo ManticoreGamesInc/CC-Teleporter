@@ -41,6 +41,15 @@ To create your own teleporters, there is a Teleporter template that can be used.
 - Name
   The name of the teleporter that will be transferred to.
 
+- RotatePlayer
+  If enabled, the player will be rotated based on the PlayerRotation value.
+
+- RotateCamera
+  If enabled, the camera will be rotated based on the PlayerRotation value.
+
+- PlayerRotation
+  The rotation of the player when spawning at this portal.
+
 ======================
 Connecting Teleporters
 ======================

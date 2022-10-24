@@ -7,7 +7,7 @@ Assets {
       RootId: 3353432081574414687
       Objects {
         Id: 3353432081574414687
-        Name: "Teleporter"
+        Name: "Outside Teleporter"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10529402100221355922
         ChildIds: 11846688373023959865
         ChildIds: 5378724642372319002
         ChildIds: 629465779450443528
@@ -32,12 +32,77 @@ Assets {
             String: ""
           }
           Overrides {
+            Name: "cs:RotatePlayer"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:RotateCamera"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerRotation"
+            Rotator {
+            }
+          }
+          Overrides {
             Name: "cs:ShowName:tooltip"
             String: "If enabled, the name of the teleporter will show up above it for players."
           }
           Overrides {
             Name: "cs:Name:tooltip"
             String: "The name of the teleporter this is going to."
+          }
+          Overrides {
+            Name: "cs:ShowName:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:ShowName:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Name:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Name:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:RotatePlayer:tooltip"
+            String: "If enable, the player will be rotated based on the PlayerRotation value."
+          }
+          Overrides {
+            Name: "cs:RotatePlayer:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:RotatePlayer:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:RotateCamera:tooltip"
+            String: "If enabled, the player look direction will be rotated based on the PlayerRotation value."
+          }
+          Overrides {
+            Name: "cs:RotateCamera:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:RotateCamera:ml"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerRotation:tooltip"
+            String: "The rotation of the player when spawning at this teleporter."
+          }
+          Overrides {
+            Name: "cs:PlayerRotation:isrep"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:PlayerRotation:ml"
+            Bool: false
           }
         }
         Collidable_v2 {

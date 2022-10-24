@@ -81,7 +81,7 @@ Assets {
       }
       Objects {
         Id: 15237301247470180174
-        Name: "Teleporter"
+        Name: "Outside Teleporter"
         Transform {
           Scale {
             X: 1
@@ -125,14 +125,8 @@ Assets {
       }
       Objects {
         Id: 14144632513562911928
-        Name: "Teleporter"
+        Name: "Inside Teleporter"
         Transform {
-          Location {
-            X: -13.2539368
-            Y: 593.796387
-          }
-          Rotation {
-          }
           Scale {
             X: 1
             Y: 1
@@ -165,14 +159,6 @@ Assets {
               Overrides {
                 Name: "Rotation"
                 Rotator {
-                }
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 1
-                  Y: 1
-                  Z: 1
                 }
               }
             }
